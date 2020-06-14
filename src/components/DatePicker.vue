@@ -40,6 +40,7 @@ input[type="date"] {
   min-height: 1.2em;
   width: 100%;
   padding: 12px;
+
   border: none;
   background-color: #111b29;
   transition: outline-color 0.5s ease-out;

@@ -23,8 +23,7 @@ storiesOf('DatePicker', module)
     .addDecorator(centered)
     .add('IOS DatePicker', () => ({
         components: { DatePicker },
-        template: '<DatePicker style="width: 500px;" action="action" :data="{label: `Pick A Date`}" />',
-        methods: { action: action('clicked') },
+        template: '<DatePicker style="width: 500px;"  :data="{label: `Pick A Date`}" />',
 
     }))
 

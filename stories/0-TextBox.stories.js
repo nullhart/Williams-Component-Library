@@ -12,8 +12,7 @@ storiesOf('TextBox', module)
   .addDecorator(centered)
   .add('Basic', () => ({
     components: { TextBox },
-    template: '<TextBox style="width: 500px;" action="action" :data="{label: `Name`,required: `true`}" />',
-    methods: { action: action('clicked') },
+    template: '<TextBox style="width: 500px;"  :data="{label: `Name`,required: `true`}" />',
   }))
 
 
