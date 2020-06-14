@@ -30,6 +30,7 @@ export default {
   display: block;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 3px;
+  color: white;
 }
 
 input[type="date"] {
@@ -37,14 +38,18 @@ input[type="date"] {
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
   min-height: 1.2em;
-  outline-color: #ccc;
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: none;
+  background-color: #111b29;
+  transition: outline-color 0.5s ease-out;
+  color: white;
 }
 
 input[type="date"]:focus {
+  outline-style: solid;
   outline-color: #0079c1;
+  border: 0;
 }
 
 [type="date"]::-webkit-inner-spin-button {

@@ -21,19 +21,23 @@ export default {
 
 .textbox-label {
   margin-bottom: 3px;
+  color: white;
 }
 
 .textbox {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
-  outline-color: #ffffff;
+  border: none;
   border-radius: 4px;
   resize: vertical;
-  transition: all 0.5s ease-out;
+  transition: outline-color 0.5s ease-out;
+  color: white;
+  background-color: #111b29;
 }
 
 .textbox:focus {
+  outline-style: solid;
   outline-color: #0079c1;
+  border: 0;
 }
 </style>

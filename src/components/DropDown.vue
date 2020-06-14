@@ -31,13 +31,18 @@ export default {
   display: block;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 3px;
+  color: white;
 }
 
 .input {
+  font-family: "Open Sans", sans-serif;
+  color: white;
   width: 100%;
-  border: 1px solid #ccc;
+  border: none;
+  background: transparent;
   outline: none;
   padding: 12px;
+  background-color: #111b29;
 }
 
 select {
