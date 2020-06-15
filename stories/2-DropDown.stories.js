@@ -21,7 +21,7 @@ storiesOf('DropDown', module)
     .addDecorator(centered)
     .add('Basic', () => ({
         components: { DropDown },
-        template: '<DropDown style="width: 500px;" :data="{label: `Select Option`,options: [{label: `1`, value: `1`},{label: `2`, value: `2`}]}" />',
+        template: '<DropDown style="width: 300px;" :data="{label: `Select Option`,options: [{label: `1`, value: `1`},{label: `2`, value: `2`}]}" />',
         methods: { action: action('clicked') },
 
     }))
